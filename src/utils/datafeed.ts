@@ -115,12 +115,19 @@ export default function createDatafeed(poolId: string, pricescale: number = 1000
             onHistoryCallback: HistoryCallback,
             _onErrorCallback: DatafeedErrorCallback
         ) => {
-            const { from, to, firstDataRequest } = periodParams;
+            const { from, to, firstDataRequest, countBack } = periodParams;
             const tf = resolveTimeframe(resolution);
+
+            // countBack is the number of bars the library REQUIRES; from/to are only
+            // a hint. Forwarding it lets the backend return the N most recent bars
+            // even when the literal window holds fewer — without it, a sparsely
+            // traded pool made the library paginate backwards until it gave up
+            // (endless spinner / empty chart on e.g. the 5D range at 5m).
+            const countBackParam = countBack ? `&countBack=${countBack}` : '';
 
             try {
                 const response = await fetchWithTimeout(
-                    `${CANDLE_CHART_ENDPOINT}?poolId=${encodeURIComponent(poolId)}&tf=${tf}&from=${from}&to=${to}`
+                    `${CANDLE_CHART_ENDPOINT}?poolId=${encodeURIComponent(poolId)}&tf=${tf}&from=${from}&to=${to}${countBackParam}`
                 );
 
                 if (!response.ok) {
@@ -134,7 +141,7 @@ export default function createDatafeed(poolId: string, pricescale: number = 1000
                     if (firstDataRequest) {
                         try {
                             const lineRes = await fetchWithTimeout(
-                                `${LINE_CHART_ENDPOINT}?poolId=${encodeURIComponent(poolId)}&tf=${tf}&from=${from}&to=${to}`
+                                `${LINE_CHART_ENDPOINT}?poolId=${encodeURIComponent(poolId)}&tf=${tf}&from=${from}&to=${to}${countBackParam}`
                             );
                             if (lineRes.ok) {
                                 const lineData = await lineRes.json();
