@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .slider-wrapper {
+            position: relative;
+            width: 300px;
+            height: 8px;
+            /* track height */
+            background: rgba(132, 95, 188, 0.2);
+            /* light purple */
+            border-radius: 4px;
+            margin: 20px;
+        }
+
+        .slider-wrapper input[type='range'] {
+            position: absolute;
+            top: -6px;
+            /* center thumb over track */
+            left: 0;
+            width: 100%;
+            margin: 0;
+            accent-color: #14b8a6;
+            /* teal */
+            background: transparent;
+            /* make native unused track invisible? */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider-wrapper">
+        <input type='range'>
+    </div>
+</body>
+
+</html>

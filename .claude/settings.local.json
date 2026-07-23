@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(npm run:*)",
+      "Bash(npx esbuild:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:api.alpacadex.com)",
+      "Bash(cd \"/c/Users/milen_1oh1/Documents/Alpaca DEX/Code/kta-liquidity-pools\" && find . -name \"*.js\" -o -name \"*.ts\" | xargs grep -l \"candle-stick-chart\\\\|candleStickChart\\\\|/api/chart\" 2>/dev/null)",
+      "Bash(cd \"/c/Users/milen_1oh1/Documents/Alpaca DEX/Code/kta-liquidity-pools/claude/certificates\" && ls -lh *.html | grep -v \"_files\")",
+      "Bash(find \"/c/Users/milen_1oh1/Documents/Alpaca DEX/Code\" -maxdepth 3 -type d -name \"*cert*\" -o -name \"*claude*\" 2>/dev/null | head -20)",
+      "Bash(cat \"/c/Users/milen_1oh1/Documents/Alpaca DEX/Code/kta-liquidity-pools/claude/certificates/Get Certificates _ Keeta Network.html\" | sed 's/<[^>]*>//g' | sed 's/&gt;/>/g; s/&lt;/</g; s/&amp;/\\\\&/g; s/&#x27;/'\"'\"'/g' | grep -v '^$' | head -120)",
+      "Bash(cat \"/c/Users/milen_1oh1/Documents/Alpaca DEX/Code/kta-liquidity-pools/webapp/webapp-frontend/claude/Certificate _ @keetanetwork_keetanet-client.html\" | sed 's/<[^>]*>//g' | sed 's/&gt;/>/g; s/&lt;/</g; s/&amp;/\\\\&/g; s/&#x27;/'\"'\"'/g; s/&quot;/\"/g' | grep -v '^$' | grep -v '^\\\\s*$' | grep -vi 'css\\\\|color\\\\|font\\\\|margin\\\\|padding\\\\|border\\\\|display\\\\|width\\\\|height\\\\|background\\\\|theme\\\\|--' | head -200)",
+      "Bash(cat \"/c/Users/milen_1oh1/Documents/Alpaca DEX/Code/kta-liquidity-pools/webapp/webapp-frontend/claude/CertificateUpdate _ @keetanetwork_keetanet-client.html\" | sed 's/<[^>]*>//g' | sed 's/&gt;/>/g; s/&lt;/</g; s/&amp;/\\\\&/g; s/&#x27;/'\"'\"'/g; s/&quot;/\"/g' | grep -v '^$' | grep -v '^\\\\s*$' | grep -vi 'css\\\\|color\\\\|font\\\\|margin\\\\|padding\\\\|border\\\\|display\\\\|width\\\\|height\\\\|background\\\\|theme\\\\|--' | head -80)",
+      "Bash(ls -la src/pages/*.tsx)",
+      "Bash(grep -n \"className.*font-bold\\\\|<h[1-5]\\\\|fontFamily\" src/pages/*.tsx | grep -E \"\\(h[1-5]|text-\\(xl|2xl|3xl|4xl|5xl\\)|font-bold\\)\" | head -100)",
+      "Bash(grep -n \"className.*font-bold\\\\|fontFamily\" src/components/**/*.tsx | grep -E \"\\(text-\\(xl|2xl|3xl|4xl\\)|font-bold|fontFamily\\)\" | head -150)",
+      "Bash(grep -rn \"className=\\\\\"text-\\\\|className=.*text-\" src/pages/*.tsx src/components/**/*.tsx | grep -E \"text-\\(2xl|3xl|4xl|5xl|xl\\)\\\\b\" | grep -v \"fontFamily\" | head -200)"
+    ]
+  }
+}

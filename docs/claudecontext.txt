@@ -1,0 +1,156 @@
+[getBars] resolution=60 tf=1h from=1772128960 to=1773313360 firstDataRequest=true
+datafeed.ts:123 [getBars] tf=1h series count=574
+datafeed.ts:153 [getBars] tf=1h processed bars=574, first=1768143600000, last=1773302400000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1773012766 to=1773313366 firstDataRequest=true
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1771950600 to=1772106300 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1771794900 to=1771950600 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1771639200 to=1771794900 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1771483500 to=1771639200 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1771327800 to=1771483500 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1771172100 to=1771327800 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1771016400 to=1771172100 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1770860700 to=1771016400 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1770705000 to=1770860700 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1770549300 to=1770705000 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1770393600 to=1770549300 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1770237900 to=1770393600 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1770082200 to=1770237900 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1769926500 to=1770082200 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1769770800 to=1769926500 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1769615100 to=1769770800 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1769459400 to=1769615100 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1769303700 to=1769459400 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1769148000 to=1769303700 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1768992300 to=1769148000 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1768836600 to=1768992300 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1768680900 to=1768836600 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1768525200 to=1768680900 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1768369500 to=1768525200 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1768213800 to=1768369500 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1768058100 to=1768213800 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1767902400 to=1768058100 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1767746700 to=1767902400 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1767591000 to=1767746700 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1767435300 to=1767591000 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1767279600 to=1767435300 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1767123900 to=1767279600 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1766968200 to=1767123900 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1766812500 to=1766968200 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1766656800 to=1766812500 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1766501100 to=1766656800 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1766345400 to=1766501100 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1766189700 to=1766345400 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1766034000 to=1766189700 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1765878300 to=1766034000 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1765722600 to=1765878300 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1765566900 to=1765722600 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1765411200 to=1765566900 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1765255500 to=1765411200 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1765099800 to=1765255500 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1764944100 to=1765099800 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1764788400 to=1764944100 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1764632700 to=1764788400 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1764477000 to=1764632700 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000
+datafeed.ts:111 [getBars] resolution=15 tf=15m from=1764321300 to=1764477000 firstDataRequest=false
+datafeed.ts:123 [getBars] tf=15m series count=161
+datafeed.ts:153 [getBars] tf=15m processed bars=161, first=1772106300000, last=1773304200000

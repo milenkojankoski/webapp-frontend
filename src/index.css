@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Ubuntu to all heading elements automatically */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+  }
+}
+
+/* * IMPORTANT: We keep only non-conflicting base styles.
+* Tailwind handles the body background, margins, and the main font family
+* (which we set to Inter/system-ui in the component).
+* We keep color scheme and link styles if you need them globally.
+*/
+
+:root {
+  /* These are fine to keep */
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Remove conflicting styles for font and background color */
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  /* background-color: #242424; */
+  /* color: rgba(255, 255, 255, 0.87); */
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  /* Remove these conflicting layout rules. The App component now controls min-height/width/flex */
+  /* display: flex; */
+  /* place-items: center; */
+  /* min-width: 320px; */
+  /* min-height: 100vh; */
+}
+
+/* Remove default button/h1 styles, as the component uses Tailwind for these */
+/* h1 { font-size: 3.2em; line-height: 1.1; } */
+/* button { ... } */
+/* button:hover { ... } */
+/* button:focus, button:focus-visible { ... } */
+
+@media (prefers-color-scheme: light) {
+
+  a:hover {
+    color: #747bff;
+  }
+
+}
+
+/* Custom slider to match Sale Discount track but keep Teal thumb/fill */
+.slider-teal-purple-track {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.slider-teal-purple-track::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 9999px;
+  background: var(--track-bg, rgba(132, 95, 188, 0.2));
+}
+
+.slider-teal-purple-track::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #14b8a6;
+  /* teal-500 */
+  cursor: pointer;
+  margin-top: -4px;
+  /* (8px track - 16px thumb) / 2 */
+}
+
+/* Firefox doesn't need the linear gradient track trick if we use moz-range-progress, but for consistency we use the same inline style */
+.slider-teal-purple-track::-moz-range-track {
+  height: 8px;
+  border-radius: 9999px;
+  background: var(--track-bg, rgba(132, 95, 188, 0.2));
+}
+
+.slider-teal-purple-track::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #14b8a6;
+  cursor: pointer;
+  border: none;
+}
+
+/* Custom slider to match Purple track and keep Purple thumb/fill */
+.slider-purple-track {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.slider-purple-track::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 9999px;
+  background: var(--track-bg, rgba(132, 95, 188, 0.2));
+}
+
+.slider-purple-track::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #845fbc;
+  /* purple */
+  cursor: pointer;
+  margin-top: -4px;
+  /* (8px track - 16px thumb) / 2 */
+}
+
+/* Firefox doesn't need the linear gradient track trick if we use moz-range-progress, but for consistency we use the same inline style */
+.slider-purple-track::-moz-range-track {
+  height: 8px;
+  border-radius: 9999px;
+  background: var(--track-bg, rgba(132, 95, 188, 0.2));
+}
+
+.slider-purple-track::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #845fbc;
+  cursor: pointer;
+  border: none;
+}
+
+/* --- COMMON UTILITY CLASSES --- */
+@layer components {
+
+  /* Standardized Glass Panel (Used across Converter, Launchpad, Token pages) */
+  .glass-panel {
+    @apply bg-white/80 dark:bg-[#1a1a1a]/80 backdrop-blur-md border border-gray-200/50 dark:border-[#333333]/50 rounded-[2rem] shadow-sm;
+  }
+
+  .glass-panel-hover {
+    @apply glass-panel transition-shadow;
+
+    &:hover {
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+  }
+
+  /* Custom Webkit Scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #e5e7eb;
+    border-radius: 10px;
+  }
+
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #333333;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #d1d5db;
+  }
+
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #444444;
+  }
+
+  /* Minimal thin scrollbar for sidebar and tight containers */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+
+  .scrollbar-thin:hover::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.12);
+  }
+
+  .dark .scrollbar-thin:hover::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  /* Firefox */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+
+  .scrollbar-thin:hover {
+    scrollbar-color: rgba(0, 0, 0, 0.12) transparent;
+  }
+
+  .dark .scrollbar-thin:hover {
+    scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+  }
+}

@@ -1,0 +1,12 @@
+export const SEARCH_ENDPOINT = "https://api.alpacadex.com/api/search";
+export const STATS_ENDPOINT = "https://api.alpacadex.com/pool";
+export const LINE_CHART_ENDPOINT = "https://api.alpacadex.com/api/chart";
+export const CANDLE_CHART_ENDPOINT = "https://api.alpacadex.com/api/candle-stick-chart";
+export const HISTORY_ENDPOINT = "https://api.alpacadex.com/pool-history";
+export const TOKEN_LIST_ENDPOINT = "https://api.alpacadex.com/token-list";
+export const TEST_TOKEN_LIST_ENDPOINT = "https://api.alpacadex.com/test-token-list";
+export const TEST_LAUNCHPAD_LIST_ENDPOINT = "https://api.alpacadex.com/launch-test-list";
+export const API_URL = "";
+export const CANDLE_WIDTH = 12;
+export const CANDLE_GAP = 4;
+export const TOTAL_UNIT_WIDTH = CANDLE_WIDTH + CANDLE_GAP;

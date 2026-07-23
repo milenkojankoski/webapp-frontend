@@ -1,0 +1,51 @@
+Chain: Ethereum
+Send: 0.5 ETH
+Receive on Keeta: JPY (fiat)
+
+Webapp log:
+[Content Bridge] 📡 Forwarding to Background: {type: 'KEETA_REQUEST', id: '4dsyj6aqrac', method: 'BRIDGE_SIMULATE_TRANSFER', params: {…}}id: "4dsyj6aqrac"method: "BRIDGE_SIMULATE_TRANSFER"params: asset: from: "evm:0x0000000000000000000000000000000000000000"to: "keeta_amnkge74xitii5dsobstldatv3irmyimujfjotftx7plaaaseam4bntb7wnna"[[Prototype]]: Objectfrom: location: "chain:evm:8453"[[Prototype]]: ObjectproviderID: "changenow-staging"to: location: "chain:keeta:21378"recipient: "keeta_aabywoijc32uojawvppt3jagbdj7fpwzqm5nwtqiitgktflxbocnzdcufgwayaa"[[Prototype]]: Objectvalue: "500000000000000000"[[Prototype]]: Objecttype: "KEETA_REQUEST"[[Prototype]]: Object
+index.ts-wfqGGjha.js:1 [Content Bridge] 📡 Forwarding to Background: {type: 'KEETA_REQUEST', id: 'bkg2k0zuerm', method: 'BRIDGE_SIMULATE_TRANSFER', params: {…}}id: "bkg2k0zuerm"method: "BRIDGE_SIMULATE_TRANSFER"params: asset: from: "$USDC"to: "$USD"[[Prototype]]: Objectfrom: location: "chain:keeta:21378"[[Prototype]]: ObjectproviderID: "bivo-anchor.keeta.com"to: location: "chain:keeta:21378"recipient: "keeta_aabywoijc32uojawvppt3jagbdj7fpwzqm5nwtqiitgktflxbocnzdcufgwayaa"[[Prototype]]: Objectvalue: "847170101"[[Prototype]]: Objecttype: "KEETA_REQUEST"[[Prototype]]: Object
+logger.ts:14 Bivo simulate failed, using estimate: asset movement request failed: [INTERNAL_ERROR] An internal error occurred
+(anonymous) @ logger.ts:14
+(anonymous) @ BridgePage.tsx:1256
+await in (anonymous)
+executeDispatch @ react-dom_client.js?v=bf89388e:13622
+runWithFiberInDEV @ react-dom_client.js?v=bf89388e:997
+processDispatchQueue @ react-dom_client.js?v=bf89388e:13658
+(anonymous) @ react-dom_client.js?v=bf89388e:14071
+batchedUpdates$1 @ react-dom_client.js?v=bf89388e:2626
+dispatchEventForPluginEventSystem @ react-dom_client.js?v=bf89388e:13763
+dispatchEvent @ react-dom_client.js?v=bf89388e:16784
+dispatchDiscreteEvent @ react-dom_client.js?v=bf89388e:16765
+<button>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=bf89388e:247
+BridgePage @ BridgePage.tsx:1771
+react_stack_bottom_frame @ react-dom_client.js?v=bf89388e:18509
+renderWithHooksAgain @ react-dom_client.js?v=bf89388e:5729
+renderWithHooks @ react-dom_client.js?v=bf89388e:5665
+updateFunctionComponent @ react-dom_client.js?v=bf89388e:7475
+beginWork @ react-dom_client.js?v=bf89388e:8525
+runWithFiberInDEV @ react-dom_client.js?v=bf89388e:997
+performUnitOfWork @ react-dom_client.js?v=bf89388e:12561
+workLoopSync @ react-dom_client.js?v=bf89388e:12424
+renderRootSync @ react-dom_client.js?v=bf89388e:12408
+performWorkOnRoot @ react-dom_client.js?v=bf89388e:11766
+performSyncWorkOnRoot @ react-dom_client.js?v=bf89388e:13517
+flushSyncWorkAcrossRoots_impl @ react-dom_client.js?v=bf89388e:13414
+processRootScheduleInMicrotask @ react-dom_client.js?v=bf89388e:13437
+(anonymous) @ react-dom_client.js?v=bf89388e:13531
+
+Extension log:
+[Background] Processing PROFILE_PIC_GET...
+index.ts-LgytQ9xy.js:102 [Background] Processing BRIDGE_SIMULATE_TRANSFER...
+index.ts-LgytQ9xy.js:102 [Background] Bridge simulateTransfer request: {"asset":{"from":"evm:0x0000000000000000000000000000000000000000","to":"keeta_amnkge74xitii5dsobstldatv3irmyimujfjotftx7plaaaseam4bntb7wnna"},"from":{"location":"chain:evm:8453"},"to":{"location":"chain:keeta:21378","recipient":"keeta_aabywoijc32uojawvppt3jagbdj7fpwzqm5nwtqiitgktflxbocnzdcufgwayaa"},"value":"500000000000000000"}
+index.ts-LgytQ9xy.js:102 [Background] Processing BRIDGE_SIMULATE_TRANSFER...
+index.ts-LgytQ9xy.js:102 [Background] Bridge simulateTransfer request: {"asset":{"from":"$USDC","to":"$USD"},"from":{"location":"chain:keeta:21378"},"to":{"location":"chain:keeta:21378","recipient":"keeta_aabywoijc32uojawvppt3jagbdj7fpwzqm5nwtqiitgktflxbocnzdcufgwayaa"},"value":"846982328"}
+index.ts-LgytQ9xy.js:102 Background Error: Error: asset movement request failed: [INTERNAL_ERROR] An internal error occurred
+    at #e (index.ts-LgytQ9xy.js:102:11118914)
+    at async #t (index.ts-LgytQ9xy.js:102:11120063)
+    at async #s (index.ts-LgytQ9xy.js:102:11120212)
+    at async k0.simulateTransfer (index.ts-LgytQ9xy.js:102:11121370)
+    at async rw (index.ts-LgytQ9xy.js:102:12172247)
+rw @ index.ts-LgytQ9xy.js:102
+
